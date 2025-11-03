@@ -1,0 +1,112 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #001f3f, #003366, #000);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.titulo-principal {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.video-item {
+  background-color: #1eb36100; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+  padding-bottom: 15px;
+}
+.video-item:hover {
+  transform: scale(1.08);
+}
+video {
+  width: 100%;
+  border-bottom: 3px solid #12b89c00;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.video-item h2 {
+  margin: 10px 0;
+  font-size: 1.3em;
+  color: #fff;
+}
+.video-item p {
+  font-size: 0.95em;
+  padding: 0 10px;
+  color: #e0e0e0;
+}
+p{
+  text-align: justify;
+}
+
+
+/*Menu*/
+.nav{
+    background-color: rgba(0, 255, 255, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 1170px;
+    height: 100px;
+    border-radius: 0.7em;
+    margin: 0 auto;
+}
+
+.barra{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu a {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0.5em;
+    border-radius: 0.7rem;
+}
+
+.menu:hover{
+    text-decoration: none;
+    transition: 0.1s;
+    text-shadow: 0 0 10px rgb(255, 255, 255),
+    0 0 20px,
+    0 0 30px,
+    0 0 40px;
+}
+.pie{
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  .Fin{
+    color: #cccccc;
+      list-style: none;
+      text-align: center;
+      font-size: 0.8em;
+      padding: 5px 0;
+      max-width: 1170px;
+      height: auto;
+      margin: 0 auto;
+  }
+}
